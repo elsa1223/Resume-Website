@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Sidebar CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+            <iframe src="navbar.html"></iframe>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid resume">
+                <div class="row">
+                    <div class="col-md-12 resume-header">
+                        <h1>Kyle Machamer</h1>
+                        <p>Molalla, OR<br>
+                        k.machamer@gmail.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 resume-date">
+                        <h4>08/2014 to Current</h4>
+                    </div>
+                    <div class="col-md-10 resume-body">
+                        <h3>Small Business Owner</h3>
+                        <h4>Etsy - Molalla, OR</h4>
+                        <p>- Handmake and sell a variety of apparel<br>
+                            - Handle customer service<br>
+                            - Market products online and in person<br>
+                            - Perform all business duties including budgets, invoicing, shipping product, and returns </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 resume-date">
+                        <h4>04/2013 to 07/2014</h4>
+                    </div>
+                    <div class="col-md-10 resume-body">
+                        <h3>Department Manager</h3>
+                        <h4>7L Freight - Wilsonville, OR</h4>
+                        <p>- Data entry processed a variety of cargo price tariffs into a consistent format<br>
+                            - Interacted with freight forwarders to collect updated information and correct errors<br>
+                            - Trained, managed, and audited subordinates</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 resume-date">
+                        <h4>08/2012 to 01/2013</h4>
+                    </div>
+                    <div class="col-md-10 resume-body">
+                        <h3>Data Entry/ SEO</h3>
+                        <h4>Material Flow - Donald, OR</h4>
+                        <p>- Updated sales websites to match product descriptions from vendors/ increase SEO<br>
+                            - Retrieved, edited, and shot new product photos<br>
+                            - Worked with sales reps to fix inconsistencies on website or catalogs</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 resume-date">
+                        <h4>10/2010 to 05/2012</h4>
+                    </div>
+                    <div class="col-md-10 resume-body">
+                        <h3>Executive Assistant</h3>
+                        <h4>Visual Media Center - Dallas, OR</h4>
+                        <p>- Performed scheduling and handled meetings on behalf of Creative Director<br>
+                            - Set up work orders, kept up with them as they moved through departments<br>
+                            - Delivered finished product and handled payments<br>
+                            - Updated existing websites with new pages, events or SEO<br>
+                            - Maintained and used industrial printer, handled print work finishing outsourcing<br>
+                            - Light office cleaning, pick ups, filing, general maintenence</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 resume-date">
+                        <h4>03/2008 to 06/2009</h4>
+                    </div>
+                    <div class="col-md-10 resume-body">
+                        <h3>Courtesy Clerk</h3>
+                        <h4>Safeway - Dallas, OR</h4>
+                        <p>- High school job. Don't ask.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script src="js/toggles.js"></script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
