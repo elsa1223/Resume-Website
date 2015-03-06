@@ -1,0 +1,23 @@
+#menu-toggle {
+  position: fixed;
+  margin: 7px;
+  width: 166px;
+  background-color: #FF4E50;
+  border-color: #F9D423;
+  color: #fff;
+  font-weight: bold;
+}
+
+#menu-toggle:hover {
+  background: #FC913A;
+}
+
+#menu-toggle.toggled {
+  height: 34px;
+}
+
+#menu-hamburger {
+  top: 0px;
+  left: -2px;
+  line-height: 1.42857143;
+}

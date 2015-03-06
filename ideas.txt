@@ -1,0 +1,10 @@
+Design --
+warm colors
+
+
+
+Content --
+pages- resume, skills
+
+resume page-
+interactive (mouseover things, disabled on mobile)
